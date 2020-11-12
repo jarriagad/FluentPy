@@ -1,6 +1,7 @@
 import collections
 
-Card = collections.namedtuple('Card', ['rank', 'suit']
+#Constructs simple class to represent individual cards
+Card = collections.namedtuple('Card', ['rank', 'suit'])
 
 class Frenchdeck:
     ranks = [str(n) for n in range(2, 11)] + list('JQKA')
